@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>hover</title>
+</head>
+<style>
+    #main li ul li{display: none;}
+    #main li:hover ul li{display: block;}
+    #main li:hover ul li ul li{display: none;}
+    #main li ul li:hover ul li{display: block;}
+    #main li ul li:hover ul li ul li{display: none;}
+    #main li ul li ul li:hover ul li{display: block;}
+    #main li ul li ul li:hover ul li ul li{display: none;}
+    #main li ul li ul li ul li:hover ul li{display: block;}
+    *{
+        background-color: cornflowerblue;
+    }
+</style>
+<body>
+    <ul id="main">
+        <li>Google
+            <ul>
+                <li>Gmail
+                    <ul>
+                        <li>sign up</li>
+                        <li>sign in
+                            <ul>
+                                <li>sign in Facebook</li>
+                                <li>sign in Instagram
+                                    <ul>
+                                        <li>sign in username</li>
+                                        <li>sign in old id</li>
+                                    </ul>
+                                </li>
+                                
+                            </ul>
+                        </li>        
+                    </ul>
+                <li>Youtube</li>
+                <li>GDrive</li>
+                <li>chorme</li>
+            
+            </ul>
+        <li>Facebook
+            <ul>
+                <li>sign in</li>
+                <li>sign out</li>
+            </ul>
+        </li>
+        <li>Microsoft
+            <ul>
+                <li>sign in</li>
+                <li>sign out</li>
+            </ul>
+        <li>Amazon
+            <ul>
+                <li>sign
+                    <ul>
+                        <li>sign in</li>
+                        <li>sign out</li>
+                    </ul>
+                </li>
+                <li>Help</li>
+                <li>Contact</li>
+                <li>Services
+                    <ul>
+                        <li>Internal service</li>
+                        <li>Service</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Instagram
+            <ul>
+                <li>sign in</li>
+                <li>sign out</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
